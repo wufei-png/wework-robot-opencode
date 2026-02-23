@@ -1,0 +1,3 @@
+[submodule "weworkapi_python"]
+	path = weworkapi_python
+	url = https://github.com/sbzhu/weworkapi_python.git
