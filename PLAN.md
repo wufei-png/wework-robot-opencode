@@ -7,7 +7,7 @@
 - **Backend**: Reuse OpenCode API (session + message) as in `opencode_client.py`; config: `OPENCODE_API_URL`, `OPENCODE_AGENT_NAME`.
 - **Config**: 
   - `OPENCODE_API_URL` (default `http://127.0.0.1:4096`)
-  - `OPENCODE_AGENT_NAME` (default `docs-searcher`)
+  - `OPENCODE_AGENT_NAME` (default `docs-searcher`; prompt source: [AI-Codereview-Gitlab-Opencode/docs-searcher.md](https://github.com/wufei-png/AI-Codereview-Gitlab-Opencode/blob/wf/opencode_wfrepo/opencode/prompts/docs-searcher.md))
   - Webhook URL for **sending** replies (default `https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxx`)
 - **Deliverables**: Implement the feature, add unit tests and E2E tests in this repo.
 

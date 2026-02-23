@@ -23,6 +23,7 @@
 
 - `OPENCODE_API_URL`（默认 `http://127.0.0.1:4096`）
 - `OPENCODE_AGENT_NAME`（默认 `docs-searcher`）
+  - 该 agent 的 prompt 定义来自 [AI-Codereview-Gitlab-Opencode/docs-searcher.md](https://github.com/wufei-png/AI-Codereview-Gitlab-Opencode/blob/wf/opencode_wfrepo/opencode/prompts/docs-searcher.md)（文档搜索专家）。
 - `OPENCODE_SERVER_USERNAME` / `OPENCODE_SERVER_PASSWORD`（可选）
 
 ## 运行
